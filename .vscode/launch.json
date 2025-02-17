@@ -17,7 +17,7 @@
             "request": "launch",
             "mainClass": "com.collin.App",
             "projectName": "java-elevator",
-            "args": "5 2"
+            "args": "7 1"
         }
     ]
 }
