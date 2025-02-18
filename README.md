@@ -30,8 +30,12 @@ The logic for this functionality assumes the following:
 
 
 # Application Usage:
+To create the jar, from the java-elevator directory run:
+mvn install
+This will create a jar file in the target directory
+
 Run the application with 2 arguements.
-java -jar java-elevator ${number of floors in the building} ${number of elevators}
+java -jar ./target/java-elevator-1.0-SNAPSHOT-jar-with-dependencies.jar ${number of floors in the building} ${number of elevators}
 
 
 
