@@ -16,6 +16,7 @@ public class App
             System.out.println("numElevators is the number of elevators in the building");
             return;
         }
+        // set values based on arguments of start
         int numFloors = Integer.parseInt(args[0]);
         int numElevators = Integer.parseInt(args[1]);
         Elevator[] elevators = new Elevator[numElevators];
