@@ -39,3 +39,6 @@ java -jar ./target/java-elevator-1.0-SNAPSHOT-jar-with-dependencies.jar ${number
 
 
 
+## TODO
+1. Make logging more user friendly.
+2. Optimize elevator scheduling.
